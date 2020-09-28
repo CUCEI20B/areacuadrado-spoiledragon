@@ -3,7 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
-
+    unsigned int a;
+    
+    cin >> a;
+    cout << a * a <<endl;
+    system("PAUSE");
     return 0;
 }
